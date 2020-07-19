@@ -1,0 +1,7 @@
+{
+  "port": 5000,
+  "mongoUri": "mongodb+srv://serhii:serhiiPass123@cluster0.ae6x3.azure.mongodb.net/cookbook?retryWrites=true&w=majority",
+  "jwtSecret": "cookbook-proj-key",
+  "baseUrl": "http://localhost:5000",
+  "postsPerPage": 9
+}

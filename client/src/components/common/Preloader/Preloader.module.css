@@ -1,0 +1,5 @@
+.preloaderContainer {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}

@@ -1,0 +1,32 @@
+.creatorContainer {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.shareRecipeButtonContainer {
+  padding: 20px 0;
+}
+
+.shareRecipeButton {
+  background-color: #2ab587;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.shareRecipeButton:hover {
+  background-color: #3ec99b;
+}
+
+.helper {
+  display: block;
+  padding: 15px 0 7px 0;
+  color: #2ab587;
+}

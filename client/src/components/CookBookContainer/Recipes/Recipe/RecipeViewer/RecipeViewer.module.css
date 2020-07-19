@@ -1,0 +1,33 @@
+.recipeViewerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  flex: 1;
+  margin: 0 auto;
+  overflow-wrap: break-word;
+}
+
+.recipeViewerContainer span {
+  color: grey;
+}
+
+.modifyRecipeButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px 0;
+}
+
+.modifyRecipeButton a {
+  display: inline;
+  background-color: #2ab587;
+  border: 1px solid white;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 14px;
+}
+
+.modifyRecipeButton a:hover {
+  background-color: #3ec99b;
+  color: #fff;
+}

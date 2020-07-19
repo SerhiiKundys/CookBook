@@ -1,0 +1,81 @@
+.recipesContainer {
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  user-select: none;
+}
+
+.addRecipeButton {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+.addRecipeButton a {
+  display: inline;
+  background-color: #2ab587;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 18px;
+}
+
+.addRecipeButton a:hover {
+  background-color: #3ec99b;
+}
+
+.recipesPostsContainer {
+  display: flex;
+  flex: 1;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.paginationContainer {
+  display: flex;
+  height: 40px;
+  max-height: 40px;
+  padding: 10px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.paginationButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2ab587;
+  color: white;
+  width: 45px;
+  height: 24px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.currentPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #2ab587;
+  border: 2px solid #2ab587;
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  .recipesPostsContainer {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .recipesPostsContainer {
+    display: block;
+    width: 90%;
+  }
+}
