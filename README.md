@@ -4,7 +4,7 @@ MERN Stack application with responsive layout
 Front-End: <b>React</b> + <b>Redux</b> </br>
 Back-End: <b>Node.js</b> + <b>Express.js</b> + <b>MongoDB</b></br>
 
-Follow steps below to run this application
+Follow steps below to run this application:
 <ul>
   <li>Replace <b>USER</b> at <b>config/default.json</b> at <b>mongoUri</b> with your user name</li>
   <li>Replace <b>PASSWORD</b> at <b>config/default.json</b> at <b>mongoUri</b> with your password</li>
@@ -17,11 +17,9 @@ Desktop version:
 <img src="https://github.com/SerhiiKundys/images/blob/master/cookbook1.png" width="600" alt="desktop version" />
 
 Tablet version:
-<p float="left">
-  <img src="https://github.com/SerhiiKundys/images/blob/master/tablet1.png" width="450" alt="tablet version" />
-  <img src="https://github.com/SerhiiKundys/images/blob/master/tablet2.png" width="450" alt="tablet version" />
- </p>
+ <img src="https://github.com/SerhiiKundys/images/blob/master/tablet1.png" width="350" alt="tablet version" />
+ <img src="https://github.com/SerhiiKundys/images/blob/master/tablet2.png" width="350" alt="tablet version" />
 
 
 Phone version:
-<img src="https://github.com/SerhiiKundys/images/blob/master/phone.png" width="400" alt="phone version" />
+<img src="https://github.com/SerhiiKundys/images/blob/master/phone.png" width="250" alt="phone version" />
