@@ -14,14 +14,14 @@ Follow steps below to run this application
 </ul>
 
 Desktop version:
-<img src="https://github.com/SerhiiKundys/images/blob/master/cookbook1.png" alt="desktop version" />
+<img src="https://github.com/SerhiiKundys/images/blob/master/cookbook1.png" width="600" alt="desktop version" />
 
 Tablet version:
-<p flex="left">
-  <img src="https://github.com/SerhiiKundys/images/blob/master/tablet1.png" alt="tablet version" />
-  <img src="https://github.com/SerhiiKundys/images/blob/master/tablet2.png" alt="tablet version" />
+<p float="left">
+  <img src="https://github.com/SerhiiKundys/images/blob/master/tablet1.png" width="450" alt="tablet version" />
+  <img src="https://github.com/SerhiiKundys/images/blob/master/tablet2.png" width="450" alt="tablet version" />
  </p>
 
 
 Phone version:
-<img src="https://github.com/SerhiiKundys/images/blob/master/phone.png" alt="phone version" />
+<img src="https://github.com/SerhiiKundys/images/blob/master/phone.png" width="400" alt="phone version" />
