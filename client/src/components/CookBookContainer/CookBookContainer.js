@@ -27,11 +27,9 @@ const CookBookContainer = ({
   fetchRecipes,
   currentPage,
 }) => {
-  console.log("render CookBookContainer");
-
   useEffect(() => {
     fetchRecipes(currentPage);
-  });
+  }, [fetchRecipes, currentPage]);
 
   const onRegisterSubmit = async (formData) => {
     await authUser(formData, "register");
@@ -60,7 +58,7 @@ const CookBookContainer = ({
           <Route path="/modify/:id" component={ModifyRecipeForm} exact />
 
           {!token && (
-            <div>
+            <React.Fragment>
               <Route path="/login" exact>
                 <Login
                   onSubmit={onLoginSubmit}
@@ -77,7 +75,7 @@ const CookBookContainer = ({
                   resetServerErrors={resetServerErrors}
                 />
               </Route>
-            </div>
+            </React.Fragment>
           )}
 
           <Redirect to="/recipes" />

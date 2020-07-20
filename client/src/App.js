@@ -5,7 +5,6 @@ import CookBookContainer from "./components/CookBookContainer/CookBookContainer"
 
 const App = ({ setUserAuth, token }) => {
   useEffect(() => {
-    console.log("render App useEffect");
     let userData = JSON.parse(localStorage.getItem("cookBookUserData"));
     if (userData && userData.token) {
       setUserAuth({

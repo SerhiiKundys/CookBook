@@ -8,7 +8,6 @@ import { Preloader } from "../../../../common/Preloader/Preloader";
 import styles from "./RecipeViewer.module.css";
 
 const RecipeViewer = ({ userId, match, fetchRecipe }) => {
-  console.log("render RecipeViewer");
   const [recipe, setRecipe] = useState(null);
   const [date, setDate] = useState(null);
 

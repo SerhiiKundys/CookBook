@@ -15,7 +15,6 @@ const maxLength15 = maxLengthCreator(15);
 const minLength3 = minLengthCreator(3);
 const minLength5 = minLengthCreator(5);
 
-console.log("render Register");
 const Register = (props) => {
   return (
     <div className={styles.authContainer}>

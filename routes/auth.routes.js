@@ -35,7 +35,7 @@ router.post("/register", async (req, res) => {
         userId: user.id,
       },
       config.get("jwtSecret"),
-      { expiresIn: "1h" }
+      { expiresIn: "30d" }
     );
 
     res.json({ token, userId: createdUser.id, login });
@@ -65,7 +65,7 @@ router.post("/login", async (req, res) => {
         userId: user.id,
       },
       config.get("jwtSecret"),
-      { expiresIn: "1h" }
+      { expiresIn: "30d" }
     );
 
     res.json({ token, userId: user.id, login });

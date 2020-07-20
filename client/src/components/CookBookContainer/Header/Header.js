@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 
 const Header = ({ logout, login, isAuthorized }) => {
-  console.log("render Header", isAuthorized);
   if (isAuthorized) {
     return (
       <div className={styles.header}>

@@ -16,7 +16,6 @@ const minLength3 = minLengthCreator(3);
 const minLength5 = minLengthCreator(5);
 
 const Login = (props) => {
-  console.log("render Login");
   return (
     <div className={styles.authContainer}>
       <form onSubmit={props.handleSubmit}>

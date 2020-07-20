@@ -3,11 +3,21 @@ import { connect } from "react-redux";
 import { useHistory } from "react-router-dom";
 
 import RecipeCreatorForm from "../RecipeCreator/RecipeCreator";
-import { postRecipe, fetchRecipe } from "../../../../../redux/actions/actions";
+import {
+  postRecipe,
+  fetchRecipe,
+  fetchRecipes,
+} from "../../../../../redux/actions/actions";
 import { Preloader } from "../../../../common/Preloader/Preloader";
 
-const ModifyRecipeForm = ({ postRecipe, token, match, fetchRecipe }) => {
-  console.log("render ModifyRecipeForm");
+const ModifyRecipeForm = ({
+  postRecipe,
+  token,
+  match,
+  fetchRecipe,
+  fetchRecipes,
+  currentPage,
+}) => {
   const [recipe, setRecipe] = useState(null);
 
   const history = useHistory();
@@ -25,6 +35,7 @@ const ModifyRecipeForm = ({ postRecipe, token, match, fetchRecipe }) => {
       token,
       "modify"
     );
+    fetchRecipes(currentPage);
     history.push("/recipes");
   };
 
@@ -50,9 +61,11 @@ const ModifyRecipeForm = ({ postRecipe, token, match, fetchRecipe }) => {
 
 const mapStateToProps = (state) => ({
   token: state.auth.token,
+  currentPage: state.recipes.currentPage,
 });
 
 export default connect(mapStateToProps, {
   postRecipe,
   fetchRecipe,
+  fetchRecipes,
 })(ModifyRecipeForm);

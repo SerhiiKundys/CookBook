@@ -6,7 +6,6 @@ import { setCurrentPage } from "../../../redux/actions/actions";
 import styles from "./Recipes.module.css";
 
 const Pagination = ({ docsCount, currentPage, setCurrentPage }) => {
-  console.log("render Pagination");
   const [pagesCount, setPagesCount] = React.useState(Math.ceil(docsCount / 9));
   const nextPage = () => setCurrentPage(currentPage + 1);
   const prevPage = () => {
