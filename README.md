@@ -13,13 +13,13 @@ Follow steps below to run this application:
   <li><b>yarn run dev</b> (at project root directory) to run the application</li>
 </ul>
 
-Desktop version:
+Desktop version:</br>
 <img src="https://github.com/SerhiiKundys/images/blob/master/cookbook1.png" width="600" alt="desktop version" />
 
-Tablet version:
- <img src="https://github.com/SerhiiKundys/images/blob/master/tablet1.png" width="350" alt="tablet version" />
- <img src="https://github.com/SerhiiKundys/images/blob/master/tablet2.png" width="350" alt="tablet version" />
+Tablet version:</br>
+<img src="https://github.com/SerhiiKundys/images/blob/master/tablet1.png" width="350" alt="tablet version" /></br>
+<img src="https://github.com/SerhiiKundys/images/blob/master/tablet2.png" width="350" alt="tablet version" />
 
 
-Phone version:
+Phone version:</br>
 <img src="https://github.com/SerhiiKundys/images/blob/master/phone.png" width="250" alt="phone version" />
